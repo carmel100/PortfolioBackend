@@ -11,7 +11,11 @@ const routerUser = require('./routerUser')
 const app =  express()
 
 
-app.use(cors());
+
+app.use(cors({
+  origin: "https://portfolio-front-end-delta.vercel.app/", // ton domaine vercel
+  credentials: true
+}));;
 
 
 app.use(express.json());
