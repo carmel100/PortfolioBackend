@@ -13,7 +13,7 @@ const app =  express()
 
 
 app.use(cors({
-  origin: "https://portfolio-front-end-delta.vercel.app/", // ton domaine vercel
+  origin: "https://portfolio-front-end-delta.vercel.app", // ton domaine vercel
   credentials: true
 }));;
 
