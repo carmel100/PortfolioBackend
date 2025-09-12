@@ -22,10 +22,10 @@ app.use(express.json());
 
 app.use(routerUser)
 
-app.post("/", (req, res) => {
+/*app.post("/", (req, res) => {
   console.log("Données reçues :", req.body);
   res.json({ message: "Données bien reçues !" });
-});
+});*/
 
 app.listen(3000, () => {
   console.log("Serveur backend démarré sur http://localhost:3000");
